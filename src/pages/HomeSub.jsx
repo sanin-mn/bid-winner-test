@@ -7,7 +7,7 @@ import SubCategories from '../components/SubCategories'
 function HomeSub() {
   return (
     <>
-    <Row className='' style={{background:'#F3F5FD',width:'100%'}}>
+    <Row style={{background:'#F3F5FD'}}>
 
       <Col sm={12} md={1} >
       <SideBar/>

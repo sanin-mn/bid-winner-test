@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <>
-        <Row className='home' style={{background:'#F3F5FD',width:'100%'}}>
+        <Row className='home' style={{background:'#F3F5FD'}}>
 
           <Col sm={12} md={1} >
           <SideBar/>

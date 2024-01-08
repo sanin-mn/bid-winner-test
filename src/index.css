@@ -4,7 +4,13 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
 
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
 
 .header-logo{
   width: 4rem;
@@ -18,7 +24,13 @@
   .job-bottom{
     width: 100%;
   }
-  
+  .footer-bottom{
+    margin-bottom: 1rem;
+  }
+  ::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
 }
 
 

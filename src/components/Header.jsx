@@ -43,10 +43,10 @@ function Header() {
                             
                             </Dropdown.Toggle>
 
-                        <Dropdown.Menu>
-                            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        <Dropdown.Menu style={{zIndex:'1000'}}>
+                            <Dropdown.Item href="#/action-1">Add Account</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">Add Guest</Dropdown.Item>
+                            
                         </Dropdown.Menu>
                     </Dropdown>
 

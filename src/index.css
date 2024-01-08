@@ -11,4 +11,16 @@
 }
 
 
+@media screen and (max-width: 550px) {
+  .side-bar{
+    display: none;
+  }
+  .job-bottom{
+    width: 100%;
+  }
+  
+}
+
+
+
 

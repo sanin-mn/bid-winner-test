@@ -23,12 +23,12 @@ function Job() {
                     <div className='d-flex w-100'>
                         <p className='text-secondary me-2'>Job Name</p>
                         <h6 className='ms-5 fw-bold'>Test Project 1</h6>
-                        <Button className='ms-auto' variant="success" size='sm' style={{height:'2rem',background:'#006AEC'}}>Job details</Button>
+                        <Button className='ms-auto'  size='sm' style={{height:'2rem',background:'#006AEC',border:'blue'}}>Job details</Button>
                     </div>
                     <div className='d-flex w-100'>
                         <p className='text-secondary'>Job Number</p>
                         <h6 className='ms-5 fw-bold'>#hjabsdka</h6>
-                        <Button className='ms-auto' size='sm' style={{height:'2rem',background:'#006AEC'}}>Button one</Button>
+                        <Button className='ms-auto' size='sm' style={{height:'2rem',background:'#006AEC',border:'blue'}}>Button one</Button>
                     </div>
                     <div className='d-flex w-100 '>
                         <p className='text-secondary me-5'>Unit</p>
@@ -69,7 +69,7 @@ function Job() {
 
             {/* bottum section */}
 
-            <div className='card shadow mt-3'>
+            <div className='job-bottom card mt-3'>
                 <div className="d-flex align-items-center p-2">
                     <p className='text-secondary ms-5'>SL NO</p>
                     <p className='text-secondary ms-4'>Assembly Name</p>

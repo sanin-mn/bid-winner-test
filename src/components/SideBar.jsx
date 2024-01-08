@@ -5,7 +5,7 @@ import { RiArrowGoBackLine } from "react-icons/ri";
 
 function SideBar() {
   return (
-    <>
+    <div className='side-bar'>
         <div className="border d-flex text-center row align-items-center justify-content-center p-2 " style={{background:'#006AEC'}}>
             <RiArrowGoBackLine style={{color:'white',fontSize:'1.5rem'}}/>
             <small className='text-white'>back to job</small>
@@ -51,7 +51,7 @@ function SideBar() {
             <small className='text-muted'>Gen Exp</small>
         </div>
         
-    </>
+    </div>
     
   )
 }

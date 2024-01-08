@@ -31,10 +31,9 @@ function AddAssemblies(props) {
             </div>
           </div>
 
-
+          {/* table */}
           <h6 className='text-secondary me-5 mt-3'>Assembly Description</h6>
-
-          <div style={{ background: '#EEEEEE', borderRadius: '2rem' }} className='p-4 mt-3'>
+          <div style={{ background: '#EEEEEE', borderRadius: '1rem' }} className='p-4 mt-3'>
             <div className="container d-flex align-items-center gap-5 text-center">
               <p className='text-secondary'>SI NO</p>
               <p className='text-secondary me-4'>Description</p>
@@ -54,7 +53,7 @@ function AddAssemblies(props) {
             </div>
             <div className="container d-flex align-items-center p-2 gap-5 text-center">
               <h6 className=''>SI NO</h6>
-              <h6 className=' me-1'>4” SQ Blank Cover</h6>
+              <h6 className=' me-1'>4” Blank Cover</h6>
               <h6 className='me-5'>3</h6>
               <h6 className='me-5'>3</h6>
               <h6 className=''>3</h6>
@@ -64,7 +63,7 @@ function AddAssemblies(props) {
           </div>
 
           <div className='d-flex gap-5 mt-3 align-items-center justify-content-center'>
-            <Button variant="outline-primary" style={{ border: '1px solid blue',color:'blue' }}>Cancel</Button>
+            <Button onClick={props.onHide} variant="outline-primary" style={{ border: '1px solid blue',color:'blue' }}>Cancel</Button>
             <Button style={{ background: '#006AFF', border: 'blue', width: '5.5rem' }}>Add</Button>
           </div>
         </Modal.Body>

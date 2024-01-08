@@ -7,7 +7,7 @@ import Assemblies from '../components/Assemblies'
 function HomeAssemblies() {
   return (
     <>
-    <Row style={{background:'#EEFAFF',height:'89vh',width:'100%'}}>
+    <Row className='' style={{background:'#F3F5FD',width:'100%'}}>
 
       <Col sm={12} md={1} >
       <SideBar/>
